@@ -20,17 +20,17 @@
             @using (Html.BeginForm()) {    
                     <fieldset>
                         <legend>Account Information</legend>
-                        <div class="clearfix">
+                       <div class="clearfix">
                             @Html.LabelFor(m => m.UserName)
                             <div class="input">
-                                @Html.TextBoxFor(m => m.UserName, new { @class = "xlarge"})
+                                @Html.TextBoxFor(m => m.UserName, new { @type = "text", @placeholder = "UserName", @class = "xlarge"})
                                 @Html.ValidationMessageFor(m => m.UserName)
                             </div>
                         </div>
                         <div class="clearfix">
                             @Html.LabelFor(m => m.Password)
                             <div class="input">
-                                @Html.TextBoxFor(m => m.Password, new { @class = "xlarge"})
+                                @Html.PasswordFor(m => m.Password, new { @placeholder = "Password", @class = "xlarge" })
                                 @Html.ValidationMessageFor(m => m.Password)
                             </div>
                         </div>
