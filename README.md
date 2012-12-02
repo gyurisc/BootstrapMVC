@@ -5,4 +5,4 @@ project page: http://www.littlebigtomatoes.com/bootstrapmvc/
 
 screenshot
 
-![BootstrapMVC](http://www.littlebigtomatoes.com/wp-content/uploads/2011/09/BootstrapMVC-300x217.png)
+![BootstrapMVC](http://www.littlebigtomatoes.com/images/BootstrapMVC-300x217.png)
